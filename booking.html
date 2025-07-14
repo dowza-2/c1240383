@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register – Online Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Registration</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">gallery</a>
+      <a href="booking.html">booking</a>
+      <a href="help.html">Help</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Register Now</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required><br>
+
+        <label for="major">Major:</label>
+        <select id="major" required>
+          <option value="">--Select Major--</option>
+          <option>Computer Science</option>
+          <option>Information Technology</option>
+          <option>Engineering</option>
+        </select><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" value="Coding"> Coding
+        <input type="checkbox" value="Reading"> Reading
+        <input type="checkbox" value="Gaming"> Gaming<br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" placeholder="Write your comments here..." rows="4" cols="40"></textarea><br>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Online Courses</p>
+  </footer>
+</body>
+</html>
